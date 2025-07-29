@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Fermat.Cqrs.Behaviors</PackageId>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.0.0</Version>
+        <Authors>Samet Karademir</Authors>
+        <Description>A library that provides behaviors for CQRS (Command Query Responsibility Segregation) patterns in .NET applications, enhancing command and query processing with features like validation, logging, and retry policies.</Description>
+        <PackageTags>cqrs;behaviors;mediator;validation;logging;retry</PackageTags>
+        <PackageProjectUrl>https://github.com/sametkarademir/fermat-cqrs-behaviors</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Fermat.Domain.Exceptions" Version="0.0.1" />
+      <PackageReference Include="FluentValidation" Version="12.0.0" />
+      <PackageReference Include="MediatR" Version="13.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+      <PackageReference Include="Polly" Version="8.6.2" />
+    </ItemGroup>
+
+</Project>
