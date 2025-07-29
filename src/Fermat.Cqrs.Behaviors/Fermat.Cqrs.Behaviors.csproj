@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <PackageId>Fermat.Cqrs.Behaviors</PackageId>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.0.0</Version>
+        <Version>0.0.1</Version>
         <Authors>Samet Karademir</Authors>
         <Description>A library that provides behaviors for CQRS (Command Query Responsibility Segregation) patterns in .NET applications, enhancing command and query processing with features like validation, logging, and retry policies.</Description>
         <PackageTags>cqrs;behaviors;mediator;validation;logging;retry</PackageTags>
